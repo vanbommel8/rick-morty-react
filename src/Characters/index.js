@@ -18,7 +18,7 @@ export default function Characters({ page, setMaxPage }) {
     }
   }
     fetchData();
-  }, [page]);
+  }, [page, setMaxPage]);
 
   return (
     <Container fixed sx={{ mt: 4 }}>
