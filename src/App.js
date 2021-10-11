@@ -11,6 +11,7 @@ function App() {
     <div className='App'>
       <Navigation page={page} setPage={setPage} maxPage={maxPage} />
       <Characters page={page} setMaxPage={setMaxPage} />
+      <Navigation page={page} setPage={setPage} maxPage={maxPage} />
     </div>
   );
 }
